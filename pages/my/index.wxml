@@ -1,0 +1,12 @@
+<view class="weui-cell weui-cell_active">
+	<view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
+		<image mode="aspectFit" src="{{userInfo.wAvatarUrl}}" style="width: 50px; display: block;height:50px"></image>
+		<!-- <text class="weui-badge" style="position: absolute; top: -0.4em; right: -0.4em;">8</text> -->
+	</view>
+	<view class="weui-cell__bd">
+		<view>{{userInfo.wNick}}</view>
+		<!-- <view style="font-size: 13px; color: #888;">用户id：{{userInfo.wId}}</view> -->
+	</view>
+</view>
+
+<button bindtap="clear">退出登录</button>

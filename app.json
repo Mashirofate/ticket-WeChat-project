@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/my/index",
+    "pages/order/index",
+    "pages/login/index",
+    "pages/details/index",
+    "pages/buy/index",
+    "pages/success/index",
+    "pages/ercode/index",
+    "pages/error/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#04406E",
+    "navigationBarTitleText": "泽安通",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#04406E",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "购票",
+      "iconPath": "static/icon/ticket.png",
+      "selectedIconPath": "static/icon/ticket_select.png"
+    },
+    {
+      "pagePath": "pages/order/index",
+      "text": "票务",
+      "iconPath": "static/icon/order.png",
+      "selectedIconPath": "static/icon/order_select.png"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "text": "我的",
+      "iconPath": "static/icon/my.png",
+      "selectedIconPath": "static/icon/my_select.png"
+    }]
+  }
+}

@@ -1,0 +1,4 @@
+<image mode="aspectFit" src="https://img.bosszhipin.com/beijin/upload/com/logo/20200313/00e5073d077fc9d9acda4803ec6568ec52eb86bee275784a57bc4e195a240f82.jpg?x-oss-process=image/resize,w_120,limit_0"></image>
+
+
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">微信一键登录</button>

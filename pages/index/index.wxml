@@ -1,0 +1,15 @@
+<view class="page" data-weui-theme="{{theme}}">
+
+	<view class="weui-panel__bd">
+		<a bindtap="toDetails" wx:for="{{activityList}}" wx:key="index" data-aId="{{item.aId}}" class="weui-media-box weui-media-box_appmsg">
+			<view class="weui-media-box__bd">
+				<h4 class="weui-media-box__title">{{item.aName}}</h4>
+				<view class="weui-media-box__desc">{{item.aNote}}</view>
+			</view>
+			<view wx:if="{{item.aImage}}" class="weui-media-box__hd">
+				<image class="weui-media-box__thumb" src="{{item.aImage}}" alt></image>
+			</view>
+		</a>
+
+	</view>
+</view>

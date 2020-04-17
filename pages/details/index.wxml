@@ -1,0 +1,16 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="page__bd page__bd_spacing">
+		<view class="weui-flex">
+			<view wx:if="{{activity.aImage}}" class="weui-flex__item">
+        <image mode="heightFix" src="{{activity.aImage}}"></image>
+      </view>
+			<view class="weui-flex__item">
+        <view>活动：{{activity.aName}}</view>
+        <view>时间：{{activity.aCreationtime}}</view>
+        <view>详情：{{activity.aNote}}</view>
+      </view>
+		</view>
+	</view>
+
+  <button type="default" bindtap="toBy" data-aid="{{activity.aId}}"> 购  票 </button>
+</view>

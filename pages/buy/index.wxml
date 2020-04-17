@@ -1,0 +1,42 @@
+<view class="weui-cell weui-cell_active">
+	<view class="weui-cell__hd">
+		<view class="weui-label">活动名称</view>
+	</view>
+	<view class="weui-cell__bd">
+		<input value="{{activity.aName}}"  disabled class="weui-input" placeholder="请输入真实姓名" />
+	</view>
+</view>
+<view class="weui-cell weui-cell_active">
+	<view class="weui-cell__hd">
+		<view class="weui-label">真实姓名</view>
+	</view>
+	<view class="weui-cell__bd">
+		<input value="{{form.tsRealName}}" bindinput="tsRealNameChage" class="weui-input" placeholder="请输入真实姓名" />
+	</view>
+</view>
+<view class="weui-cell weui-cell_active">
+	<view class="weui-cell__hd">
+		<view class="weui-label">身份证号码</view>
+	</view>
+	<view class="weui-cell__bd">
+		<input value="{{form.tsQrcard}}" bindinput="tsIdentiycardChage" class="weui-input" placeholder="请输入身份证号码" />
+	</view>
+</view> 
+<view class="weui-cell weui-cell_active">
+	<view class="weui-cell__hd">
+		<view class="weui-label">手机号码</view>
+	</view>
+	<view class="weui-cell__bd">
+		<input value="{{form.phone}}"  bindinput="phoneChage" class="weui-input" placeholder="请输入手机号码" />
+	</view>
+</view>
+
+
+<view class="weui-form__opr-area">
+	<button disabled="{{disabled}}" bindtap="bindBuy" class="weui-btn weui-btn_primary">购 买</button>
+</view>
+<view class="weui-form__tips-area">
+	<view class="weui-form__tips">
+  提示：请填写真实的信息，以免无法及时进场。
+	</view>
+</view>
